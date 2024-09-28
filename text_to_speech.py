@@ -5,7 +5,7 @@ from gtts import gTTS
 from PyPDF2 import PdfReader
 import os
 
-f  =open('startup idea 1.pdf','rb')
+f  =open('Demo.pdf','rb')
 pdf = PdfReader(f)
 text = ''
 for pages in pdf.pages:
